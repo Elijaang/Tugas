@@ -6,8 +6,9 @@
   3. Sumber data apa yang menunjukkan tendensi nilai HMT yang lebih rendah dan tinggi dibandingkan dengan data lain?
 
 ---
-# 1. Pandas
-Pandas adalah library dari pyhton untuk membaca suatu file Excel
+## 1. Pengertian Pandas
+Pandas adalah sebuah library Python yang menyediakan alat analisis dan pengolahan data. Pandas merupakan singkatan dari Python Data Analysis Library
+
 ---
 ## Langkah Pertama
 Meng Import seluruh library yang diperlukan
