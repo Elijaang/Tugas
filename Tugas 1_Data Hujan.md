@@ -9,15 +9,13 @@ Pandas (Python Data Analysis Library) adalah sebuah library Python yang menyedia
 
 # SOAL NO 1
 ## Langkah Pertama
-Meng Import seluruh library yang diperlukan.
+Meng Import library pandas. Menjadikan pandas ke pd
 
 ```{python}
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 ```
 ## Langkah Kedua 
-Mengubah bagian kolom tanggal menjadi index
+Mengubah bagian kolom tanggal menjadi index.
 
 ```{python}
 # SOAL NO 1
@@ -33,7 +31,7 @@ df.set_index('Date', inplace=True)
 ```
 
 ## Langkah Ketiga
-Membuat data hujan terbaca hanya pada tahun kelahiran saya
+Membuat data hujan terbaca hanya pada tahun kelahiran saya.
 
 ```{phyton}
 # Filtering data berdasarkan tanggal
@@ -41,7 +39,7 @@ filtered_df = df.loc['2005-01-01':'2005-12-30']
 ```
 
 ## Langkah Keempat
-
+Data yang dipakai yaitu data CHIRPS. Lalu diubah berdasarkan per minggu. Setelah itu mencari bulan dan minggu keberapa dengan hujan max.
 
 ```{pyhton}
 # Berdasarkan per minggu
@@ -53,7 +51,7 @@ hujan_max = weekly_accumulation.max()
 ```
 
 ## Langkah Kelima
-Lakukan print( untuk memunculkan data output di program yang sudah dibuat
+Lakukan 'print()' untuk memunculkan data output di program yang sudah dibuat.
 
 ```{python}
 print("\nData Mingguan :")
@@ -63,7 +61,7 @@ print("Bulan:", bulan_max.month_name())
 print("Minggu ke:", bulan_max.week)
 print("Total Hujan Akumulasi:", hujan_max, "mm")
 ```
-## Hasil Program
+## Hasil Program Soal No. 1
 
 ```{python}
 # -*- coding: utf-8 -*-
@@ -74,8 +72,6 @@ Created on Tue May 28 01:49:06 2024
 """
 
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # SOAL NO 1
 # Membuat DataFrame dengan index datetime
@@ -104,3 +100,7 @@ print('\nData CHIRPS')
 print("Bulan:", bulan_max.month_name())
 print("Minggu ke:", bulan_max.week)
 print("Total Hujan Akumulasi:", hujan_max, "mm")
+```
+---
+# SOAL NO 2
+## Langkah pertama
