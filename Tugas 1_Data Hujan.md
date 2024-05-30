@@ -6,10 +6,15 @@
   3. Sumber data apa yang menunjukkan tendensi nilai HMT yang lebih rendah dan tinggi dibandingkan dengan data lain?
 
 ---
+# 1. Pandas
+Pandas adalah library dari pyhton untuk membaca suatu file Excel
+---
 ## Langkah Pertama
-Menentukan 
+Meng Import seluruh library yang diperlukan
 ```{python}
 import pandas as pd
 import matplotlib.pyplot as plt
-import calendar
-import os,glob
+import seaborn as sns
+```
+---
+
