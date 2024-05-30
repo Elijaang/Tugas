@@ -6,7 +6,8 @@
   3. Sumber data apa yang menunjukkan tendensi nilai HMT yang lebih rendah dan tinggi dibandingkan dengan data lain?
 
 ---
-
+## Langkah Pertama
+Menentukan 
 ```{python}
 import pandas as pd
 import matplotlib.pyplot as plt
