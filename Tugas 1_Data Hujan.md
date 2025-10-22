@@ -9,7 +9,7 @@ Pandas (Python Data Analysis Library) adalah sebuah library Python yang menyedia
 
 # SOAL NO 1
 ## Langkah Pertama
-Meng Import library pandas. Menjadikan pandas ke pd
+Meng-Import library pandas. Menjadikan pandas ke pd
 
 ```{python}
 import pandas as pd
@@ -68,7 +68,7 @@ print("Total Hujan Akumulasi:", hujan_max, "mm")
 """
 Created on Tue May 28 01:49:06 2024
 
-@author: Gilang
+@author: EliJang
 """
 
 import pandas as pd
