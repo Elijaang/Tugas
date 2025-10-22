@@ -102,5 +102,3 @@ print("Minggu ke:", bulan_max.week)
 print("Total Hujan Akumulasi:", hujan_max, "mm")
 ```
 ---
-# SOAL NO 2
-## Langkah pertama
